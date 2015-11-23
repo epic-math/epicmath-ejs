@@ -2,7 +2,7 @@ EpicMath :
 
 Based on 
 MEAN_MVC_3rdTutorial
-====================
+
 
 Code acompanying the [third blog post](https://hackhands.com/mongodb-crud-mvc-way-with-passport-authentication/) in a series of posts which will teach you how to take advantage of the MEAN stack in becoming a full-stack JavaScript developer.
 

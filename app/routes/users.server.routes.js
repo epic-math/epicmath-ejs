@@ -28,6 +28,14 @@ module.exports = function(app) {
 			failureFlash: true
 		}));
 
+	app.route('/login3')
+		.get(users.renderLogin3)
+		.post(passport.authenticate('local', {
+			successRedirect: '/',
+			failureRedirect: '/login3',
+			failureFlash: true
+		}));
+
 	app.get('/logout', users.logout);
 
 	app.get('/oauth/facebook', passport.authenticate('facebook', {

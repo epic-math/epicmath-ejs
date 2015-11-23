@@ -47,6 +47,18 @@ exports.renderLogin2 = function(req, res, next) {
 	}
 };
 
+exports.renderLogin3 = function(req, res, next) {
+	if (!req.user) {
+		res.render('login3', {
+			title: 'Login 3 Form',
+			messages: req.flash('error') || req.flash('info')
+		});
+	}
+	else {
+		return res.redirect('/');
+	}
+};
+
 exports.renderRegister = function(req, res, next) {
 	if (!req.user) {
 		res.render('register', {
