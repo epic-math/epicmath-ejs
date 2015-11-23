@@ -1,3 +1,6 @@
+EpicMath :
+
+Based on 
 MEAN_MVC_3rdTutorial
 ====================
 
@@ -9,4 +12,3 @@ Code acompanying the [third blog post](https://hackhands.com/mongodb-crud-mvc-wa
 [Second blog post](https://hackhands.com/delving-node-js-express-web-framework/) was all about Node.js and Express.
 [First blog post](https://hackhands.com/how-to-get-started-on-the-mean-stack/) was about getting started on the MEAN stack. 
 
-![](http://www.nikola-breznjak.com/blog/wp-content/uploads/2014/12/batman.jpg)
