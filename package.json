@@ -1,5 +1,5 @@
 {
-  "name": "MEAN_MVC_3rdTutorial",
+  "name": "Epic Math",
   "version": "1.0.0",
   "description": "Code acompanying the [third blog post](not yet published)",
   "main": "server.js",
@@ -8,18 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hitman666/MEAN_MVC_3rdTutorial.git"
+    "url": "https://github.com/epic-math/epicmath-ejs.git"
   },
   "keywords": [
     "MEAN",
     "MVC"
   ],
-  "author": "Nikola Brežnjak <nikola.breznjak@gmail.com> (http://www.nikola-breznjak.com/)",
+  "author": "Ki Hong <contact.epicmath@gmail.com> ",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hitman666/MEAN_MVC_3rdTutorial/issues"
-  },
-  "homepage": "https://github.com/Hitman666/MEAN_MVC_3rdTutorial",
+  "homepage": "https://github.com/epic-math/epicmath-ejs.git",
   "dependencies": {
     "body-parser": "^1.10.1",
     "connect-flash": "^0.1.1",

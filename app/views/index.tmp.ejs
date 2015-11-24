@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+
+<body class="home">
+    <h1><%= title %></h1>
+    <h2>views/index.ejs </h2>
+    <% if ( user ) { %>
+		<h2>Hello <%=user%> </h2>
+		<a href="/logout">Logout</a>
+	<% } else { %>
+		<a href="/register">Register</a>
+		<a href="/login">Login</a>
+		<a href="/login2">Login 2</a>
+		<a href="/login3">Login 3</a>
+		<a href="/view1">View 1</a>
+	<% } %>
+
+    <img src="img/khong.jpg" alt="khong.jpg">
+</body>
+</html>
